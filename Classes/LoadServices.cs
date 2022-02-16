@@ -49,6 +49,7 @@ namespace LanguageSchool.Classes
         {
             PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
         }
+
         public void ResetFilter()
         {
             discountIndex = 0;
